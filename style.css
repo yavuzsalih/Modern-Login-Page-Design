@@ -1,0 +1,153 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('tema.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.signup-form {
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    min-height: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.signup-form h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+
+.form-group {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.form-group {
+    position: relative;
+    width: 100%;
+}
+
+.form-group input {
+    width: calc(100% - 40px); 
+    padding: 12px 10px 12px 40px; 
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+}
+
+.form-group .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+
+.form-group input[type="text"] {
+    background: url('https://cdn-icons-png.flaticon.com/512/1077/1077114.png') no-repeat;
+    background-size: 20px;
+    background-position: 10px center;
+}
+
+.form-group input[type="password"] {
+    background: url('https://cdn-icons-png.flaticon.com/512/3064/3064155.png') no-repeat;
+    background-size: 20px;
+    background-position: 10px center;
+}
+
+
+.form-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+
+
+.forgot-password {
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+.login-btn {
+    width: 100%;
+    background-image: url('tema.jpg');
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.or-up {
+    text-decoration: none;
+    display: block;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+
+.icon-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icon-social a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+
+.icon-social a:nth-child(1) {
+    background: url('https://cdn-icons-png.flaticon.com/512/124/124010.png') no-repeat center/cover;
+}
+
+.icon-social a:nth-child(2) {
+    background: url('https://cdn-icons-png.flaticon.com/512/124/124021.png') no-repeat center/cover;
+}
+
+.icon-social a:nth-child(3) {
+    background: url('https://cdn-icons-png.flaticon.com/512/281/281764.png') no-repeat center/cover;
+}
